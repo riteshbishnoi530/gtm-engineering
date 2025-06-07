@@ -5,6 +5,7 @@
       --text-lg:20px;
        --text-xl:24px;
         --text-xxl:28px;
+        --text-xxll:42px;
          --text-xxxl:48px;
           --text-xxxxl:64px;
     
@@ -16,6 +17,7 @@
        --text-xl:22px;
         --text-xxl:24px;
          --text-xxxl:42px;
+          --text-xxll:38px;
           --text-xxxxl:58px; 
 }  
 }
@@ -27,6 +29,7 @@
     --text-xl:20px;
     --text-xxl:22px;
     --text-xxxl:38px;
+     --text-xxll:34px;
     --text-xxxxl:48px; 
 } 
 }
@@ -37,7 +40,8 @@
     --text-lg:18px;
     --text-xl:20px;
     --text-xxl:20px;
-    --text-xxxl:32px;
+     --text-xxll:24px;
+    --text-xxxl:28px;
     --text-xxxxl:40px; 
 } 
 }

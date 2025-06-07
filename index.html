@@ -22,14 +22,14 @@
                             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
                             <div class="nav-links" id="nav-links">
-                                <a href="#">Home</a>
-                                <a href="#">About Us</a>
-                                <a href="#">Our Services</a>
-                                <a href="#">Projects</a>
-                                <a href="#">90 Days to Scale</a>
-                                <button class="mobile-screen-btn contact-btn">Contact Us</button>
+                                <a class="opacity-70 header-link" href="#">Home</a>
+                                <a class="opacity-70 header-link" href="#">About Us</a>
+                                <a class="opacity-70 header-link" href="#">Our Services</a>
+                                <a class="opacity-70 header-link" href="#">Projects</a>
+                                <a class="opacity-70 header-link" href="#">90 Days to Scale</a>
+                                <button class="btn mobile-screen-btn contact-btn">Contact Us</button>
                             </div>
-                            <button class="desktop-screen-btn contact-btn">Contact Us</button>
+                            <button class="btn desktop-screen-btn contact-btn">Contact Us</button>
 
                         </div>
                     </nav>
@@ -62,38 +62,55 @@
                 startups
                 looking to build durable infrastructure during their early and growth stages.</p>
             <div class="flex tabs flex-wrap">
-                <button class="btn cursor-pointer services-tab-btn">Architect the Revenue Engine</button>
-                <button class="btn cursor-pointer services-tab-gradient-btn">Experiment, Automate, Optimize</button>
-                <button class="btn cursor-pointer services-tab-btn">Lead with Data, Deliver Revenue</button>
+                <button class="btn cursor-pointer services-tab-btn" data-tab="1">Architect the Revenue Engine</button>
+                <button class="btn cursor-pointer services-tab-gradient-btn" data-tab="2">Experiment, Automate,
+                    Optimize</button>
+                <button class="btn cursor-pointer services-tab-btn" data-tab="3">Lead with Data, Deliver
+                    Revenue</button>
             </div>
-            <div class="flex tab-container">
-                <div>
-                    <p class="services-tab-heading">Own the Tech, the Metrics, <span
-                            class="services-tab-heading-span">and the Outcomes</span></p>
-                    <div class="flex flex-col gap-lg">
-                        <div class="flex gap-sm align-items-start">
-                            <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
-                            <p class="services-tab-description">Launch multi-channel GTM experiments to improve
-                                conversion and reduce CAC</p>
-                        </div>
-                        <div class="flex gap-sm align-items-start">
-                            <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
-                            <p class="services-tab-description">Automate key parts of the funnel using tools like n8n,
-                                Make, Clay, Lemlist</p>
-                        </div>
-                        <div class="flex gap-sm align-items-start">
-                            <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
-                            <p class="services-tab-description">Use data to identify friction points and build systems
-                                that solve them</p>
-                        </div>
-                        <div class="flex gap-sm align-items-start">
-                            <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
-                            <p class="services-tab-description">Continuously optimize handoffs, processes, and messaging
-                                across the funnel</p>
+            <div>
+                <div class="hidden tab-content flex justify-center" data-content="1">
+                    <p class="text-center mt-16 text-xl">
+                        first tab content
+                    </p>
+                </div>
+                <div class="flex tab-content active tab-container flex tab-container" data-content="2">
+                    <div>
+                        <p class="services-tab-heading">Own the Tech, the Metrics, <span
+                                class="services-tab-heading-span">and the Outcomes</span></p>
+                        <div class="flex flex-col gap-lg">
+                            <div class="flex gap-sm align-items-start">
+                                <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
+                                <p class="services-tab-description">Launch multi-channel GTM experiments to improve
+                                    conversion and reduce CAC</p>
+                            </div>
+                            <div class="flex gap-sm align-items-start">
+                                <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
+                                <p class="services-tab-description">Automate key parts of the funnel using tools like
+                                    n8n,
+                                    Make, Clay, Lemlist</p>
+                            </div>
+                            <div class="flex gap-sm align-items-start">
+                                <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
+                                <p class="services-tab-description">Use data to identify friction points and build
+                                    systems
+                                    that solve them</p>
+                            </div>
+                            <div class="flex gap-sm align-items-start">
+                                <img class="tick-icon" src="./assets/svg/tick.svg" alt="tick icon">
+                                <p class="services-tab-description">Continuously optimize handoffs, processes, and
+                                    messaging
+                                    across the funnel</p>
+                            </div>
                         </div>
                     </div>
+                    <img class="services-tab-img" src="./assets/images/services-tab-img.png" alt="services tab image">
                 </div>
-                <img class="services-tab-img" src="./assets/images/services-tab-img.png" alt="services tab image">
+                <div class="tab-content hidden flex justify-center" data-content="3">
+                    <p class="text-center mt-16 text-xl">
+                        Third tab content
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -103,20 +120,20 @@
         <h2 class="common-heading text-center">Companies <span class="common-heading-span">We've Worked With</span></h2>
         <p class="text-center compaines-description">Trusted by innovative startups and established enterprises alike
         </p>
-        <marquee loop="infinite" behavior="sliding" direction="left">
+        <marquee behavior="alternate" direction="left">
             <div class="flex gap-40 justify-center mt-74">
-                <img width="192" src="./assets/images/digibee.png" alt="digibee">
-                <img width="176" src="./assets/images/squint.png" alt="squint">
-                <img width="206" src="./assets/images/Fixify.png" alt="Fixify">
-                <img width="214" src="./assets/images/vectory.png" alt="vectory">
-                <img width="207" src="./assets/images/rainforest.png" alt="rainforest">
-                <img width="207" src="./assets/images/draftald.png" alt="draftald">
-                <img width="192" src="./assets/images/digibee.png" alt="digibee">
-                <img width="176" src="./assets/images/squint.png" alt="squint">
-                <img width="206" src="./assets/images/Fixify.png" alt="Fixify">
-                <img width="214" src="./assets/images/vectory.png" alt="vectory">
-                <img width="207" src="./assets/images/rainforest.png" alt="rainforest">
-                <img width="207" src="./assets/images/draftald.png" alt="draftald">
+                <img class="compaines-images" width="192" src="./assets/images/digibee.png" alt="digibee">
+                <img class="compaines-images" width="176" src="./assets/images/squint.png" alt="squint">
+                <img class="compaines-images" width="206" src="./assets/images/Fixify.png" alt="Fixify">
+                <img class="compaines-images" width="214" src="./assets/images/vectory.png" alt="vectory">
+                <img class="compaines-images" width="207" src="./assets/images/rainforest.png" alt="rainforest">
+                <img class="compaines-images" width="207" src="./assets/images/draftald.png" alt="draftald">
+                <img class="compaines-images" width="192" src="./assets/images/digibee.png" alt="digibee">
+                <img class="compaines-images" width="176" src="./assets/images/squint.png" alt="squint">
+                <img class="compaines-images" width="206" src="./assets/images/Fixify.png" alt="Fixify">
+                <img class="compaines-images" width="214" src="./assets/images/vectory.png" alt="vectory">
+                <img class="compaines-images" width="207" src="./assets/images/rainforest.png" alt="rainforest">
+                <img class="compaines-images" width="207" src="./assets/images/draftald.png" alt="draftald">
             </div>
         </marquee>
     </section>
@@ -124,13 +141,63 @@
     <!-- See GTM Engineering in Action -->
     <section class="mt-150 px-4">
         <div class="gtm-container">
+            <div class="orange-layer">
+                <img class="w-full layer" src="./assets/images/orange-top-layer.png" alt="orange layer">
+            </div>
+            <div class="gradient-layer">
+                <img class="w-full layer-bottom" src="./assets/images/gradient-bottom-layer.png"
+                    alt="gradient-bottom-layer">
+            </div>
             <h2 class="common-heading text-center">See GTM <span class="common-heading-span">Engineering in
                     Action</span></h2>
             <p class="text-center see-gtm-description opacity-70 leading-160 text-black mt-24">Watch how our team
                 transforms go-to-market operations and accelerates growth for innovative companies</p>
-                <div class="video-img">
-                    <img class="w-full" src="./assets/images/video-image.png" alt="video">
-                </div>
+            <div class="video-img">
+                <img class="w-full rounded-md" src="./assets/images/video-image.png" alt="video">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools We Master -->
+    <section class="px-4">
+        <h2 class="common-heading text-center">Tools <span class="common-heading-span">We Master</span></h2>
+        <p class="text-center opacity-70 text-black mt-16">Our team has deep expertise with these industry-leading
+            platforms</p>
+        <marquee behavior="alternate" direction="left">
+            <div class="flex gap-24 mt-40">
+                <img class="master-slider-img" src="./assets/images/lemlist.png" alt="lemlist">
+                <img class="master-slider-img" src="./assets/images/solseforce.png" alt="salseforce">
+                <img class="master-slider-img" src="./assets/images/hubspot.png" alt="hubspot">
+                <img class="master-slider-img" src="./assets/images/n8n.png" alt="">
+                <img class="master-slider-img" src="./assets/images/clay.png" alt="clay">
+                <img class="master-slider-img" src="./assets/images/lemlist.png" alt="lemlist">
+                <img class="master-slider-img" src="./assets/images/solseforce.png" alt="salseforce">
+                <img class="master-slider-img" src="./assets/images/hubspot.png" alt="hubspot">
+                <img class="master-slider-img" src="./assets/images/n8n.png" alt="">
+                <img class="master-slider-img" src="./assets/images/clay.png" alt="clay">
+            </div>
+        </marquee>
+    </section>
+
+    <!-- About GTM Engineering -->
+    <section class="mt-150 px-4">
+        <div class="container flex lg-flex-col item-center justify-center about-parent gap-33">
+            <div>
+                <h2 class="text-black font-normal text-xxll leading-130">About GTM <span
+                        class="common-heading-span">Engineering</span></h2>
+                <p class="opacity-70 mt-16 leading-160  about-description">GTM Engineering is a strategic and technical
+                    discipline that designs, builds, and optimizes the systems, processes, and technologies required to
+                    drive predictable revenue growth in B2B SaaS companies. It lives at the intersection of sales,
+                    marketing, operations, and product, turning go-to-market strategy into scalable execution. The best
+                    practitioners of GTM Engineering combine a deep understanding of the modern revenue tech stack with
+                    data-driven experimentation, process design, and cross-functional leadership. The goal is to
+                    transform ideal customer profiles (ICPs) into measurable revenue outcomes through automated
+                    workflows, unified buyer journeys, and systematic funnel optimization</p>
+                <button class="btn cursor-pointer services-btn mt-42">Read More</button>
+            </div>
+            <div class="about-gtm-img mx-auto">
+                <img class="w-full" src="./assets/images/about-gtm-img.png" alt="about gtm">
+            </div>
         </div>
     </section>
 
@@ -173,6 +240,64 @@
         </div>
     </section>
 
+    <!-- Contact Us -->
+    <section class="px-4 mt-150">
+        <div class="container contact-wraper flex gap-24 justify-between">
+            <div>
+                <h2 class="common-heading">Contact <span class="common-heading-span">Us</span></h2>
+                <p class="opacity-70 leading-160 text-black contact-description">Let us learn about your business. We
+                    can share some best practices or chat about exciting GTM strategies you can employ. It’s your time,
+                    we’re just excited to meet you.</p>
+                <div class="flex flex-col gap-24 mt-34">
+                    <div class="flex item-center gap-10">
+                        <img width="40" src="./assets/images/phone-icon.png" alt="phone-icon">
+                        <a href="tel: 5038671013"
+                            class="opacity-70 text-off-black text-decoration-none font-medium">5038671013</a>
+                    </div>
+                    <div class="flex item-center gap-10">
+                        <img width="40" src="./assets/images/mail-icon.png" alt="phone-icon">
+                        <a href="mailto: Jake@justlandit.com"
+                            class="opacity-70 text-off-black text-decoration-none font-medium">Jake@justlandit.com</a>
+                    </div>
+                    <div class="flex item-center gap-10">
+                        <img width="40" src="./assets/images/location-icon.png" alt="phone-icon">
+                        <a href="" class="opacity-70 text-off-black text-decoration-none font-medium">1001 SW Disk Dr
+                            Bend, OR 97702</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form class="flex flex-col gap-24">
+                    <div class="flex sm-flex-col w-full gap-16">
+                        <div class="flex flex-col w-50 sm-w-full">
+                            <label class="opacity-60 mb-12" for="first name">First Name</label>
+                            <input required type="text" class="input" id="first name">
+                        </div>
+                        <div class="flex flex-col w-50 sm-w-full">
+                            <label class="opacity-60 mb-12" for="last name">last Name</label>
+                            <input required type="text" class="input" id="last name">
+                        </div>
+                    </div>
+                    <div class="flex sm-flex-col gap-16">
+                        <div class="flex flex-col w-50 sm-w-full">
+                            <label class="opacity-60 mb-12" for="email">Email</label>
+                            <input required type="email" class="input" id="email">
+                        </div>
+                        <div class="flex flex-col w-50 sm-w-full">
+                            <label class="opacity-60 mb-12" for="phone">Phone No.</label>
+                            <input required type="number" class="input" id="phone">
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="opacity-60 mb-12" for="message">Message</label>
+                        <textarea class="message" id="message"></textarea>
+                    </div>
+                    <button class="btn cursor-pointer submit-btn">Submit Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <script>
         const toggle = document.getElementById('menu-toggle');
         const navLinks = document.getElementById('nav-links');
@@ -180,6 +305,34 @@
         toggle.addEventListener('click', () => {
             navLinks.classList.toggle('show');
             toggle.innerHTML = navLinks.classList.contains('show') ? '&times;' : '&#9776;';
+        });
+
+        // tabs
+        const tabButtons = document.querySelectorAll('.tabs .btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const selectedTab = button.getAttribute('data-tab');
+
+                // Update tab button styles
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('services-tab-gradient-btn');
+                    btn.classList.add('services-tab-btn');
+                });
+                button.classList.add('services-tab-gradient-btn');
+
+                // Show the selected tab and hide others
+                tabContents.forEach(content => {
+                    if (content.getAttribute('data-content') === selectedTab) {
+                        content.classList.remove('hidden');
+                        content.classList.add('active');
+                    } else {
+                        content.classList.add('hidden');
+                        content.classList.remove('active');
+                    }
+                });
+            });
         });
     </script>
 </body>
