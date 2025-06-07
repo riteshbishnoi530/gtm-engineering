@@ -34,6 +34,7 @@ body {
 
 .header-link:hover{
     opacity: 100% !important;
+    -webkit-text-stroke: 1px;
 }
 
 .text-sm {
@@ -547,10 +548,6 @@ body {
       color: #333;
       font-weight: 500;
       font-size: 18px;
-    }
-
-    .nav-links a:hover {
-    font-weight: 600;
     }
 
     .mobile-screen-btn{
