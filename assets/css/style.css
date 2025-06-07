@@ -868,6 +868,10 @@ body {
         padding: 0 16px 16px 16px;
     }
 
+    .mb-74{
+        margin-bottom: 30px !important;
+    }
+
     .footer-logo{
         max-width: 100px;
     }
