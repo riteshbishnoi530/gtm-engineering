@@ -194,8 +194,6 @@ body {
     padding: 14px 26px;
     border-radius: 8px;
     font-weight: 500;
-     font-size: 16px;
-        padding: 10px 20px;
 }
 
 .meet-btn {
@@ -206,7 +204,7 @@ body {
     line-height: 140%;
     border: 1px solid #FCFCFC;
     background-color: transparent;
-    padding: 14px 26px;
+    padding: 14px 32px;
     border-radius: 8px;
     font-weight: 500
 }
@@ -245,10 +243,10 @@ body {
 .services-tab-gradient-btn {
     color: #FCFCFC !important;
     background-image: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.41%);
-    font-size: 18px;
+    font-size: 16px;
     line-height: 140%;
     border: none;
-    padding: 14px 26px;
+    padding: 11.5px 24.5px;
     border-radius: 24px;
 }
 
@@ -258,7 +256,7 @@ body {
     line-height: 160%;
     border-radius: 24px;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 11.5px 23.3px;
     background-color: transparent;
 }
 
@@ -516,6 +514,14 @@ body {
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       padding: 0 20px;
       border-radius: 16px;
+      max-width: 1302px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-wrapper{
+        padding-top: 121px;
+        padding-bottom: 189px;
     }
 
     .nav-parent{
@@ -557,7 +563,9 @@ body {
     .contact-btn {
       background: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.41%);
       color: white;
-      padding: 8px 16px;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 13px 24px;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -704,11 +712,24 @@ body {
         margin: 10px 0;
      background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3%, #FFFFFF 56%, rgba(255, 255, 255, 0) 100%);
     }
+
+    .footer-contact{
+        max-width: 286px;
+    }
     
 
 @media (max-width:1024px) {
     .tab-container {
         flex-direction: column;
+    }
+
+    .footer-contact{
+        max-width: 100%;
+    }
+
+    .hero-wrapper{
+        padding-top: 100px;
+        padding-bottom: 150px;
     }
 
     .footer-description{
@@ -834,6 +855,11 @@ body {
         margin-top: 80px;
     }
 
+     .hero-wrapper{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+
       .footer-rapper{
         padding-top:40px ;
     }
@@ -859,6 +885,11 @@ body {
 @media (max-width:640px) {
     .featured-card {
         width: 100%;
+    }
+
+     .hero-wrapper{
+        padding-top: 60px;
+        padding-bottom: 80px;
     }
 
     .sm-gap-6{
