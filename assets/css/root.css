@@ -6,6 +6,38 @@
        --text-xl:24px;
         --text-xxl:28px;
          --text-xxxl:48px;
-          --text-base:64px;
+          --text-xxxxl:64px;
     
+}
+
+@media (max-width:1024px) {
+    :root{
+      --text-lg:20px;
+       --text-xl:22px;
+        --text-xxl:24px;
+         --text-xxxl:42px;
+          --text-xxxxl:58px; 
+}  
+}
+
+@media (max-width:768px) {
+    :root{
+    --text-md:16px;
+    --text-lg:18px;
+    --text-xl:20px;
+    --text-xxl:22px;
+    --text-xxxl:38px;
+    --text-xxxxl:48px; 
+} 
+}
+
+@media (max-width:640px) {
+    :root{
+    --text-md:16px;
+    --text-lg:18px;
+    --text-xl:20px;
+    --text-xxl:20px;
+    --text-xxxl:32px;
+    --text-xxxxl:40px; 
+} 
 }

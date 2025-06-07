@@ -6,21 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTM Engineering</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="hero-bg-img">
-            <div class="hero-bg-layer">
-                <div class="container">
-                    <h1 class="hero-text">From $500K to $10M ARR—Faster,<span class="hero-span"> Smarter,
-                            Repeatable</span></h1>
-                    <p class="text-off-white hero-description">GTM Engineering for venture-backed SaaS startups who need
-                        more pipeline and less guesswork.</p>
-                    <div class="flex btn-container">
-                        <button class="cursor-pointer services-btn rounded-md">Explore Our Services</button>
-                        <button class="cursor-pointer meet-btn rounded-md">Meet With Us</button>
+            <div class="hero-bg-layer px-4">
+                <div class="nav-parent">
+                    <nav>
+                        <div class="nav-container">
+                            <a href=""><img class="logo" width="132" src="./assets/images/logo.png" alt="logo"></a>
+
+                            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+                            <div class="nav-links" id="nav-links">
+                                <a href="#">Home</a>
+                                <a href="#">About Us</a>
+                                <a href="#">Our Services</a>
+                                <a href="#">Projects</a>
+                                <a href="#">90 Days to Scale</a>
+                                <button class="mobile-screen-btn contact-btn">Contact Us</button>
+                            </div>
+                            <button class="desktop-screen-btn contact-btn">Contact Us</button>
+
+                        </div>
+                    </nav>
+                </div>
+                <div class="min-h-screen justify-center flex flex-col">
+                    <div class="container">
+                        <h1 class="hero-text">From $500K to $10M ARR—Faster,<span class="hero-span"> Smarter,
+                                Repeatable</span></h1>
+                        <p class="text-off-white hero-description">GTM Engineering for venture-backed SaaS startups who
+                            need
+                            more pipeline and less guesswork.</p>
+                        <div class="flex flex-wrap btn-container">
+                            <button class="btn cursor-pointer services-btn rounded-md">Explore Our Services</button>
+                            <button class="btn cursor-pointer meet-btn rounded-md">Meet With Us</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,9 +62,9 @@
                 startups
                 looking to build durable infrastructure during their early and growth stages.</p>
             <div class="flex tabs flex-wrap">
-                <button class="cursor-pointer services-tab-btn">Architect the Revenue Engine</button>
-                <button class="cursor-pointer services-tab-gradient-btn">Experiment, Automate, Optimize</button>
-                <button class="cursor-pointer services-tab-btn">Lead with Data, Deliver Revenue</button>
+                <button class="btn cursor-pointer services-tab-btn">Architect the Revenue Engine</button>
+                <button class="btn cursor-pointer services-tab-gradient-btn">Experiment, Automate, Optimize</button>
+                <button class="btn cursor-pointer services-tab-btn">Lead with Data, Deliver Revenue</button>
             </div>
             <div class="flex tab-container">
                 <div>
@@ -73,52 +97,91 @@
             </div>
         </div>
     </section>
-    <section class="mt-150">
+
+    <!-- Companies Section -->
+    <section class="mt-150 px-4">
         <h2 class="common-heading text-center">Companies <span class="common-heading-span">We've Worked With</span></h2>
         <p class="text-center compaines-description">Trusted by innovative startups and established enterprises alike
         </p>
-        <div class="flex flex-wrap gap-40 justify-center mt-74">
-            <img width="192" src="./assets/images/digibee.png" alt="digibee">
-            <img width="176" src="./assets/images/squint.png" alt="squint">
-            <img width="206" src="./assets/images/Fixify.png" alt="Fixify">
-            <img width="214" src="./assets/images/vectory.png" alt="vectory">
-            <img width="207" src="./assets/images/rainforest.png" alt="rainforest">
-            <img width="207" src="./assets/images/draftald.png" alt="draftald">
+        <marquee loop="infinite" behavior="sliding" direction="left">
+            <div class="flex gap-40 justify-center mt-74">
+                <img width="192" src="./assets/images/digibee.png" alt="digibee">
+                <img width="176" src="./assets/images/squint.png" alt="squint">
+                <img width="206" src="./assets/images/Fixify.png" alt="Fixify">
+                <img width="214" src="./assets/images/vectory.png" alt="vectory">
+                <img width="207" src="./assets/images/rainforest.png" alt="rainforest">
+                <img width="207" src="./assets/images/draftald.png" alt="draftald">
+                <img width="192" src="./assets/images/digibee.png" alt="digibee">
+                <img width="176" src="./assets/images/squint.png" alt="squint">
+                <img width="206" src="./assets/images/Fixify.png" alt="Fixify">
+                <img width="214" src="./assets/images/vectory.png" alt="vectory">
+                <img width="207" src="./assets/images/rainforest.png" alt="rainforest">
+                <img width="207" src="./assets/images/draftald.png" alt="draftald">
+            </div>
+        </marquee>
+    </section>
+
+    <!-- See GTM Engineering in Action -->
+    <section class="mt-150 px-4">
+        <div class="gtm-container">
+            <h2 class="common-heading text-center">See GTM <span class="common-heading-span">Engineering in
+                    Action</span></h2>
+            <p class="text-center see-gtm-description opacity-70 leading-160 text-black mt-24">Watch how our team
+                transforms go-to-market operations and accelerates growth for innovative companies</p>
+                <div class="video-img">
+                    <img class="w-full" src="./assets/images/video-image.png" alt="video">
+                </div>
         </div>
     </section>
 
     <!-- Featured Content -->
-    <section class="px-4">
+    <section class="px-4 mt-150">
         <div class="container">
             <h2 class="common-heading text-center">Featured <span class="common-heading-span">Content</span></h2>
             <p class="text-center featured-description">Explore some of our successful projects and the measurable
                 results we've delivered for our clients.</p>
 
-                <div class="flex card-parent gap-24 mt-31">
-                    <div class="featured-card">
-                        <img class="featured-img" src="./assets/images/process-engineering.png" alt="process-engineering">
-                        <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
-                        <p class="text-xl font-semibold mt-8 leading-130">Manufacturing Process Optimization</p>
-                        <p class="opacity-70 leading-160 text-black mt-12">Reduced production time by 30% through streamlined processes and improved machinery layout.</p>
-                        <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130" href="">View Case Study <img src="./assets/svg/arrow.svg" alt="arrow"></a>
-                    </div>
-                    <div class="featured-card">
-                        <img class="featured-img" src="./assets/images/infrastructure.png" alt="infrastructure">
-                        <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
-                        <p class="text-xl font-semibold mt-8 leading-130">Data Center Efficiency Upgrade</p>
-                        <p class="opacity-70 leading-160 text-black mt-12">Implemented energy-efficient cooling systems that reduced power consumption by 25%.</p>
-                        <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130" href="">View Case Study <img src="./assets/svg/arrow.svg" alt="arrow"></a>
-                    </div>
-                    <div class="featured-card">
-                        <img class="featured-img" src="./assets/images/supply-chain.png" alt="supply-chain">
-                        <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
-                        <p class="text-xl font-semibold mt-8 leading-130">Supply Chain Analysis & Redesign</p>
-                        <p class="opacity-70 leading-160 text-black mt-12">Optimized logistics network resulting in 15% cost reduction and improved delivery times.</p>
-                        <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130" href="">View Case Study <img src="./assets/svg/arrow.svg" alt="arrow"></a>
-                    </div>
+            <div class="flex w-full card-parent gap-24 mt-31">
+                <div class="featured-card">
+                    <img class="featured-img" src="./assets/images/process-engineering.png" alt="process-engineering">
+                    <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
+                    <p class="text-xl font-semibold mt-8 leading-130">Manufacturing Process Optimization</p>
+                    <p class="opacity-70 leading-160 text-black mt-12">Reduced production time by 30% through
+                        streamlined processes and improved machinery layout.</p>
+                    <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130 view-case"
+                        href="">View Case Study <img class="arrow" src="./assets/svg/arrow.svg" alt="arrow"></a>
                 </div>
+                <div class="featured-card">
+                    <img class="featured-img" src="./assets/images/infrastructure.png" alt="infrastructure">
+                    <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
+                    <p class="text-xl font-semibold mt-8 leading-130">Data Center Efficiency Upgrade</p>
+                    <p class="opacity-70 leading-160 text-black mt-12">Implemented energy-efficient cooling systems that
+                        reduced power consumption by 25%.</p>
+                    <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130 view-case"
+                        href="">View Case Study <img class="arrow" src="./assets/svg/arrow.svg" alt="arrow"></a>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-img" src="./assets/images/supply-chain.png" alt="supply-chain">
+                    <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
+                    <p class="text-xl font-semibold mt-8 leading-130">Supply Chain Analysis & Redesign</p>
+                    <p class="opacity-70 leading-160 text-black mt-12">Optimized logistics network resulting in 15% cost
+                        reduction and improved delivery times.</p>
+                    <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130 view-case"
+                        href="">View Case Study <img class="arrow" src="./assets/svg/arrow.svg" alt="arrow"></a>
+                </div>
+            </div>
         </div>
     </section>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggle.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+            toggle.innerHTML = navLinks.classList.contains('show') ? '&times;' : '&#9776;';
+        });
+    </script>
 </body>
 
 </html>
