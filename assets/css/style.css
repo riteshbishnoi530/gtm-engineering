@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
 
 .header-link:hover{
     opacity: 100% !important;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 0.5px;
 }
 
 .text-sm {
@@ -512,7 +513,7 @@ body {
  nav {
       background: white;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      padding: 0 20px;
+      padding: 10px 20px;
       border-radius: 16px;
       max-width: 1302px;
       margin-left: auto;
@@ -715,6 +716,14 @@ body {
 
     .footer-contact{
         max-width: 286px;
+    }
+
+    .footer-contact-link:hover {
+        opacity: 100%;
+    }
+
+    .footer-contact-link{
+        transition: all 0.3s ease-in-out;
     }
     
 
