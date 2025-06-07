@@ -72,6 +72,14 @@ body {
     color: #0D0D0D;
 }
 
+.text-white{
+    color: white;
+}
+
+.footer-description{
+    max-width: 315px;
+}
+
 .text-decoration-none{
     text-decoration: none;
 }
@@ -308,6 +316,10 @@ body {
     gap: 16px !important;
 }
 
+.gap-18{
+    gap: 18px !important;
+}
+
 .gap-24 {
     gap: 24px !important;
 }
@@ -316,7 +328,10 @@ body {
     gap: 33px !important;
 }
 
-
+.gap-59{
+    gap: 59px !important;
+    row-gap: 30px !important;
+}
 
 .px-4 {
     padding-left: 16px;
@@ -383,6 +398,10 @@ body {
     margin-top: 8px;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
+
 .mt-12 {
     margin-top: 12px;
 }
@@ -401,6 +420,10 @@ body {
 
 .mt-34{
     margin-top: 34px;
+}
+
+.mb-74{
+    margin-bottom: 74px;
 }
 
 .mt-150 {
@@ -660,12 +683,44 @@ body {
      font-size: 16px;
         padding: 15px 0 15px 0;
     }
+
+    .footer-logo{
+        max-width: 138px;
+        width: 100%;
+    }
+
+    .footer-rapper{
+        background:#010101;
+        border-radius: 24px;
+        padding-top:80px ;
+        padding-bottom: 20px;
+    }
+
+    .footer{
+        padding: 0 28px 28px 28px;
+    }
+
+    .footer-line{
+        width: 100%;
+        height: 1px;
+        background: white;
+        margin: 10px 0;
+     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3%, #FFFFFF 56%, rgba(255, 255, 255, 0) 100%);
+    }
     
 
 @media (max-width:1024px) {
     .tab-container {
         flex-direction: column;
     }
+
+    .footer-description{
+    max-width: 600px;
+}
+
+.lg-flex-wrap{
+    flex-wrap: wrap !important;
+}
 
      .gtm-container{
         margin-bottom: 280px; 
@@ -782,6 +837,10 @@ body {
         margin-top: 80px;
     }
 
+      .footer-rapper{
+        padding-top:40px ;
+    }
+
      .gtm-container{
         margin-bottom: 250px; 
     }
@@ -805,6 +864,14 @@ body {
         width: 100%;
     }
 
+    .footer{
+        padding: 0 16px 16px 16px;
+    }
+
+    .footer-logo{
+        max-width: 100px;
+    }
+
      .gtm-container{
         margin-bottom: 100px; 
         padding-bottom: 100px;
@@ -820,7 +887,7 @@ body {
     }
 
     .mt-150{
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .sm-flex-col{
@@ -854,10 +921,6 @@ body {
 
     .hero-section {
         padding: 16px;
-    }
-
-    .services-btn {
-       
     }
 
     .meet-btn {
