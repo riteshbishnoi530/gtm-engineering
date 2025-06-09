@@ -74,6 +74,10 @@ body {
     color: #0D0D0D;
 }
 
+.text-custom-black{
+    color: #1F1F1F;
+}
+
 .text-white{
     color: white;
 }
@@ -237,7 +241,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     opacity: 70%;
-    color: black;
+    color: #010101;
     margin-top: 16px;
 }
 
@@ -357,7 +361,7 @@ body {
 
 .compaines-description {
     opacity: 70%;
-    color: black;
+    color: #010101;
     margin-top: 16px;
     line-height: 160%;
 }
@@ -725,6 +729,10 @@ body {
     .footer-contact-link{
         transition: all 0.3s ease-in-out;
     }
+
+    .see-gtm-description{
+        color: #010101;
+    }
     
 
 @media (max-width:1024px) {
@@ -895,6 +903,14 @@ body {
     .featured-card {
         width: 100%;
     }
+    
+    .services-tab-heading{
+        margin-bottom: 16px;
+    }
+
+    .gap-lg{
+        gap: 12px !important;
+    }
 
     .services-btn{
         font-size: 16px;
@@ -902,7 +918,8 @@ body {
     }
 
     .submit-btn{
-        max-width: 150px;
+        max-width: 140px;
+        padding: 12px 0;
     }
 
     .btn-container{
