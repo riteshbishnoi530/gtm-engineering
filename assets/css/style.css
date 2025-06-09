@@ -759,6 +759,7 @@ body {
 
      .gtm-container{
         margin-bottom: 280px; 
+        padding-top: 80px;
     }
 
      .contact-description{
@@ -883,6 +884,7 @@ body {
 
      .gtm-container{
         margin-bottom: 250px; 
+        padding-top: 40px;
     }
 
     .mt-42{
@@ -966,6 +968,15 @@ body {
      .gtm-container{
         margin-bottom: 100px; 
         padding-bottom: 100px;
+        padding-top: 30px;
+    }
+
+    .mt-16{
+        margin-top: 12px;
+    }
+
+    .mt-24{
+        margin-top: 20px;
     }
 
     .video-img{
