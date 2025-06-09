@@ -13,6 +13,16 @@ body {
     background-color: #FCFCFC;
 }
 
+.pointer-event-none{
+    pointer-events: none;
+}
+
+.companies-left-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .container {
     width: 100%;
     max-width: 1140px;
@@ -366,6 +376,10 @@ body {
     line-height: 160%;
 }
 
+.compaines-images{
+    height: 50px;
+}
+
 .gap-40 {
     gap: 40px;
 }
@@ -436,6 +450,10 @@ body {
 
 .mb-12{
     margin-bottom: 12px;
+}
+
+.h-fit{
+    height: 52px;
 }
 
 .hidden {
