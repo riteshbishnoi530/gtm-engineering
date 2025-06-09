@@ -22,6 +22,13 @@
 }  
 }
 
+@media (max-width:992px) {
+    :root{
+      --text-md:16px;
+}
+    
+}
+
 @media (max-width:768px) {
     :root{
     --text-md:16px;
@@ -36,12 +43,13 @@
 
 @media (max-width:640px) {
     :root{
-    --text-md:16px;
-    --text-lg:18px;
-    --text-xl:20px;
+    --text-base:14px;
+    --text-md:14px;
+    --text-lg:16px;
+    --text-xl:18px;
     --text-xxl:20px;
      --text-xxll:22px;
     --text-xxxl:24px;
-    --text-xxxxl:40px; 
+    --text-xxxxl:32px; 
 } 
 }

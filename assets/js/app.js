@@ -1,10 +1,24 @@
 const toggle = document.getElementById('menu-toggle');
-        const navLinks = document.getElementById('nav-links');
+const navLinks = document.getElementById('nav-links');
+const headerLinks = document.querySelectorAll('.header-link');
 
-        toggle.addEventListener('click', () => {
-            navLinks.classList.toggle('show');
-            toggle.innerHTML = navLinks.classList.contains('show') ? '&times;' : '&#9776;';
-        });
+toggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('show');
+    toggle.innerHTML = isOpen ? '&times;' : '&#9776;';
+    document.body.classList.toggle('no-scroll', isOpen);
+});
+
+// Close navbar when any link is clicked (on small screens)
+headerLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (navLinks.classList.contains('show')) {
+            navLinks.classList.remove('show');
+            toggle.innerHTML = '&#9776;';
+            document.body.classList.remove('no-scroll');
+        }
+    });
+});
+
 
         // tabs
         const tabButtons = document.querySelectorAll('.tabs .btn');
