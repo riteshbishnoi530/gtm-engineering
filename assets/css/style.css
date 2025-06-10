@@ -34,9 +34,10 @@ body {
 }
 
 .companies-left-layer{
-    position: absolute;
     top: 0;
     left: 0;
+    max-width: 150px;
+    width: 100%;
 }
 
 .gtm-bg-layer{
@@ -829,14 +830,20 @@ transform: translate(0px, -10px);
         width: 100%;
         top: 0;
         left: 0;
-        border-radius: 24px;
+        border-top-left-radius: 24px;
     }
      .footer-bottom-layer{
         max-width: 207px;
         width: 100%;
         bottom: 0;
         right: 0;
-        border-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    .companies-right-layer{
+right: 0;
+ max-width: 150px;
+    width: 100%;
     }
 
     .contact-us-link{
@@ -1152,6 +1159,14 @@ transform: translate(0px, -10px);
         max-width: 100%;
     }
 
+    .companies-left-layer{
+    max-width: 100px;
+}
+
+  .companies-right-layer{
+    max-width: 100px;
+}
+
     .tab-container {
         flex-direction: column;
     }
@@ -1355,6 +1370,16 @@ transform: translate(0px, -10px);
         padding: 10px 20px;
     }
 
+     .companies-left-layer{
+    max-width: 80px;
+    top: 32px;
+}
+
+  .companies-right-layer{
+    max-width: 80px;
+     top: 32px;
+}
+
     .tab-container {
     padding: 20px;
 }
@@ -1408,6 +1433,14 @@ transform: translate(0px, -10px);
     .contact-icons{
         flex-direction: column !important;
     }
+
+      .companies-left-layer{
+    max-width: 60px;
+}
+
+  .companies-right-layer{
+    max-width: 60px;
+}
 
      .master-slider-img{
         max-width: 100px;
