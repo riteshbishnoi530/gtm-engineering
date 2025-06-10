@@ -267,6 +267,10 @@ body {
     font-weight: 500
 }
 
+.meet-btn:hover {
+    border: 1px solid transparent;
+}
+
 .btn-container {
     gap: 24px;
     margin-top: 42px;
@@ -330,7 +334,7 @@ body {
     overflow-x: auto;
     white-space: nowrap;
     padding-bottom: 8px;
-    max-width: 935px;
+    max-width: 938px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -555,6 +559,11 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
     box-shadow: 0px 4px 25px 0px #01010114;
     border-radius: 24px;
     border: 1px solid #0101011F;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-card:hover {
+transform: translate(0px, -10px);
 }
 
 .gradient-text {
@@ -774,6 +783,33 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
         width: 100%;
     }
 
+    .footer-top-layer{
+        max-width: 207px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 24px;
+    }
+     .footer-bottom-layer{
+        max-width: 207px;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        border-radius: 24px;
+    }
+
+    .contact-us-link{
+        width: fit-content;
+    }
+
+     .contact-us-link span{
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact-us-link:hover span{
+        opacity: 100%;
+    }
+    
     .footer-rapper{
         background:#010101;
         border-radius: 24px;
@@ -794,7 +830,7 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
     }
 
     .footer-contact{
-        max-width: 286px;
+        max-width: 279px;
     }
 
     .footer-contact-link:hover {
@@ -814,10 +850,33 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
     }
     
 
+    @media (max-width: 1200px) {
+       .gap-59{
+    gap: 28px !important;
+}
+
+.footer-description{
+    max-width: 250px;
+}
+        
+    }
+
 @media (max-width:1024px) {
 
-    .footer-contact{
-        max-width: 100%;
+    .footer-parent{
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer-description{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+    .footer-logo-link{
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .video-img{
@@ -937,6 +996,15 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
         max-width: 500px !important;
       }
 
+      .contact-icons-footer{
+        flex-direction: row !important;
+        gap: 20px !important;
+        flex-wrap: wrap !important;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px !important;
+      }
+
       .about-parent{
         flex-direction: column !important;
       }
@@ -1031,18 +1099,29 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
         margin-top: 80px;
     }
 
-    .tab-container {
-        flex-direction: column;
+    .footer-parent{
+      flex-direction: column;
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-     .featured-card {
+    .footer-contact{
         width: 100%;
-        max-width: 500px;
+        max-width: 100%;
+    }
+
+    .tab-container {
+        flex-direction: column;
     }
 
     .featured-img{
         width: 100%;
         max-width: 100%;
+    }
+
+    .featured-card {
+        width: 450px;
     }
 
     .services-tab-img {
@@ -1090,6 +1169,7 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
 @media (max-width:640px) {
     .featured-card {
         width: 100%;
+        max-width: 500px;
     }
 
     .nav-links a {
@@ -1160,7 +1240,7 @@ border: linear-gradient(182.56deg, #9100DF -27.39%, #DA2B7A 40.58%, #F96654 98.4
     }
 
     .footer-logo{
-        max-width: 100px;
+        max-width: 80px;
     }
 
     .mt-34{

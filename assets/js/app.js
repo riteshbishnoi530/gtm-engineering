@@ -47,3 +47,17 @@ headerLinks.forEach(link => {
                 });
             });
         });
+
+        // video
+
+         document.getElementById('video-thumbnail').addEventListener('click', function () {
+        const videoContainer = document.getElementById('video-container');
+        
+        // Replace the image with a video element
+        videoContainer.innerHTML = `
+            <video controls autoplay class="w-full rounded-md">
+                <source src="./assets/videos/demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        `;
+    });

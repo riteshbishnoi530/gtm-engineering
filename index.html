@@ -52,9 +52,9 @@
                                 <button class="btn mobile-screen-btn contact-btn">Contact Us</button>
                             </div>
                             <div class="flex gap-10">
-                            <button class="btn desktop-screen-btn contact-btn">Contact Us</button>
-                             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-                             </div>
+                                <button class="btn desktop-screen-btn contact-btn">Contact Us</button>
+                                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                            </div>
 
                         </div>
                     </nav>
@@ -86,7 +86,7 @@
                 generation repeatable, measurable, and scalable. It’s a crucial function for venture-backed SaaS
                 startups
                 looking to build durable infrastructure during their early and growth stages.</p>
-                
+
             <div class="flex tabs">
                 <button class="btn cursor-pointer services-tab-btn" data-tab="1">Architect the Revenue Engine</button>
                 <button class="btn cursor-pointer services-tab-gradient-btn" data-tab="2">Experiment, Automate,
@@ -215,7 +215,7 @@
         <h2 class="common-heading text-center">Companies <span class="common-heading-span">We've Worked With</span></h2>
         <p class="text-center compaines-description">Trusted by innovative startups and established enterprises alike
         </p>
-        <marquee behavior="" direction="left">
+        <marquee behavior="scroll" direction="left">
             <div class="flex gap-40 h-fit justify-center mt-74">
                 <img class="comp" src="./assets/images/companies-left-layer.png" alt="companies left layer">
                 <img class="comp" src="./assets/images/companies-right-layer.png" alt="companies right layer">
@@ -251,7 +251,7 @@
     <section class="mt-150 px-4">
         <div class="gtm-container relative">
             <div class="gtm-bg-layer absolute ">
- <div class="orange-layer">
+                <div class="orange-layer">
                     <img class="pointer-event-none w-full layer" src="./assets/images/orange-top-layer.png"
                         alt="orange layer">
                 </div>
@@ -265,8 +265,9 @@
                         Action</span></h2>
                 <p class="text-center see-gtm-description opacity-70 leading-160 mt-24">Watch how our team
                     transforms go-to-market operations and accelerates growth for innovative companies</p>
-                <div class="video-img">
-                    <img class="pointer-event-none w-full rounded-md" src="./assets/images/video-image.png" alt="video">
+                <div id="video-container" class="video-img">
+                    <img id="video-thumbnail" class="cursor-pointer w-full rounded-md"
+                        src="./assets/images/video-image.png" alt="video">
                 </div>
             </div>
         </div>
@@ -278,7 +279,7 @@
         <p class="text-center text-base opacity-70 text-custom-black mt-16">Our team has deep expertise with these
             industry-leading
             platforms</p>
-        <marquee behavior="alternate" direction="left">
+        <marquee behavior="scroll" direction="left">
             <div class="flex gap-24 mt-40">
                 <img class="pointer-event-none master-slider-img" src="./assets/images/lemlist.png" alt="lemlist">
                 <img class="pointer-event-none master-slider-img" src="./assets/images/solseforce.png" alt="salseforce">
@@ -340,7 +341,8 @@
                         alt="process-engineering">
                     <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
                     <p class="text-xl font-semibold mt-8 leading-130">Manufacturing Process Optimization</p>
-                    <p class="opacity-70 leading-160 text-custom-black mt-12 text-base">Reduced production time by 30% through
+                    <p class="opacity-70 leading-160 text-custom-black mt-12 text-base">Reduced production time by 30%
+                        through
                         streamlined processes and improved machinery layout.</p>
                     <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130 view-case"
                         href="">View Case Study <img class="arrow" src="./assets/svg/arrow.svg" alt="arrow"></a>
@@ -350,7 +352,8 @@
                         alt="infrastructure">
                     <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
                     <p class="text-xl font-semibold mt-8 leading-130">Data Center Efficiency Upgrade</p>
-                    <p class="opacity-70 leading-160 text-custom-black mt-12 text-base">Implemented energy-efficient cooling
+                    <p class="opacity-70 leading-160 text-custom-black mt-12 text-base">Implemented energy-efficient
+                        cooling
                         systems that
                         reduced power consumption by 25%.</p>
                     <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130 view-case"
@@ -361,7 +364,8 @@
                         alt="supply-chain">
                     <p class="text-sm mt-24 leading-130 gradient-text">Process Engineering</p>
                     <p class="text-xl font-semibold mt-8 leading-130">Supply Chain Analysis & Redesign</p>
-                    <p class="opacity-70 leading-160 text-custom-black mt-12 text-base">Optimized logistics network resulting in
+                    <p class="opacity-70 leading-160 text-custom-black mt-12 text-base">Optimized logistics network
+                        resulting in
                         15% cost
                         reduction and improved delivery times.</p>
                     <a class="text-black font-semibold font-md flex gap-sm items-center mt-20 leading-130 view-case"
@@ -381,24 +385,19 @@
                     can share some best practices or chat about exciting GTM strategies you can employ. It’s your time,
                     we’re just excited to meet you.</p>
                 <div class="flex contact-icons flex-col gap-24 mt-34">
-                    <div class="flex item-center gap-10">
+                    <a target="_blank" href="tel: 5038671013"
+                        class="item-center contact-us-link flex gap-10 text-off-black text-decoration-none font-medium">
                         <img class="pointer-event-none footer-icon" width="40" src="./assets/images/phone-icon.png"
-                            alt="phone-icon">
-                        <a target="_blank" href="tel: 5038671013"
-                            class="opacity-70 text-off-black text-decoration-none font-medium">5038671013</a>
-                    </div>
-                    <div class="flex item-center gap-10">
-                        <img class="pointer-event-none footer-icon" width="40" src="./assets/images/mail-icon.png"
-                            alt="phone-icon">
-                        <a target="_blank" href="mailto: Jake@justlandit.com"
-                            class="opacity-70 text-off-black text-decoration-none font-medium">Jake@justlandit.com</a>
-                    </div>
-                    <div class="flex item-center gap-10">
-                        <img class="pointer-event-none footer-icon" width="40" src="./assets/images/location-icon.png"
-                            alt="phone-icon">
-                        <a target="_blank" href="https://maps.app.goo.gl/hnAzAn631xeQKprA7" class="opacity-70 text-off-black text-decoration-none font-medium">1001 SW Disk Dr
-                            Bend, OR 97702</a>
-                    </div>
+                            alt="phone-icon"> <span class="opacity-70">5038671013</span></a>
+                    <a target="_blank" href="mailto: Jake@justlandit.com"
+                        class="flex gap-10 contact-us-link item-center text-off-black text-decoration-none font-medium"><img
+                            class="pointer-event-none footer-icon" width="40" src="./assets/images/mail-icon.png"
+                            alt="phone-icon"> <span class="opacity-70">Jake@justlandit.com</span></a>
+                    <a target="_blank" href="https://maps.app.goo.gl/hnAzAn631xeQKprA7"
+                        class="flex gap-10 contact-us-link item-center text-off-black text-decoration-none font-medium"><img
+                            class="pointer-event-none footer-icon" width="40" src="./assets/images/location-icon.png"
+                            alt="phone-icon"> <span class="opacity-70">1001 SW Disk Dr
+                        Bend, OR 97702</span></a>
                 </div>
             </div>
             <div class="contact-form">
@@ -437,87 +436,86 @@
 
     <!-- footer -->
     <section class="footer mt-150">
-        <div class="footer-rapper">
+        <div class="footer-rapper relative">
+            <img class="absolute footer-top-layer" src="./assets/images/footer-top-layer.png" alt="top layer">
+            <img class="absolute footer-bottom-layer" src="./assets/images/footer-bottom-layer.png" alt="layer-bottom">
             <div class="px-4">
                 <div class="container mb-74 flex lg-flex-col justify-between gap-18">
-                    <div>
-                        <a href=""><img class="footer-logo" src="./assets/images/footer-logo.png" alt="footer-logo"></a>
+                    <div class="flex flex-col justify-center">
+                        <a class="footer-logo-link flex" href=""><img class="footer-logo"
+                                src="./assets/images/footer-logo.png" alt="footer-logo"></a>
                         <p class="opacity-70 leading-160 text-white mt-24 footer-description">GTM Engineering delivers
                             innovative consulting solutions to help businesses optimize processes, embrace technology,
                             and
                             achieve growth.</p>
                     </div>
-                    <div class="flex gap-59 lg-flex-wrap">
-                        <div>
-                            <p class="text-white text-md font-medium">Quick Links</p>
-                            <div class="flex flex-col gap-18 sm-gap-6 mt-12">
-                                <a href="/"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Home</a>
-                                <a href="#about"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">About
-                                    Us</a>
-                                <a href="#services"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Services</a>
-                                <a href="#projects"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Projects</a>
-                                <a href="#90days"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">90
-                                    Days to
-                                    Scale</a>
-                                <a href="#contactus"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Contact
-                                    Us</a>
+                    <div class="flex gap-59 lg-flex-wrap footer-parent">
+                        <div class="flex gap-59 justify-between">
+                            <div>
+                                <p class="text-white text-md font-medium">Quick Links</p>
+                                <div class="flex flex-col gap-18 sm-gap-6 mt-12">
+                                    <a href="/"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Home</a>
+                                    <a href="#about"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">About
+                                        Us</a>
+                                    <a href="#services"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Services</a>
+                                    <a href="#projects"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Projects</a>
+                                    <a href="#90days"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">90
+                                        Days to
+                                        Scale</a>
+                                    <a href="#contactus"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Contact
+                                        Us</a>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <p class="text-white text-md font-medium">Services</p>
-                            <div class="flex flex-col gap-18 sm-gap-6 mt-12">
-                                <a href="#"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Engineering
-                                    Consultation</a>
-                                <a href="#"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Process
-                                    Optimization</a>
-                                <a href="#"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Data
-                                    Analysis</a>
-                                <a href="#"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Performance
-                                    Metrics</a>
-                                <a href="#"
-                                    class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Technical
-                                    Training</a>
+                            <div>
+                                <p class="text-white text-md font-medium">Services</p>
+                                <div class="flex flex-col gap-18 sm-gap-6 mt-12">
+                                    <a href="#"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Engineering
+                                        Consultation</a>
+                                    <a href="#"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Process
+                                        Optimization</a>
+                                    <a href="#"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Data
+                                        Analysis</a>
+                                    <a href="#"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Performance
+                                        Metrics</a>
+                                    <a href="#"
+                                        class="text-decoration-none text-base opacity-70 leading-160 text-white footer-contact-link">Technical
+                                        Training</a>
+                                </div>
                             </div>
                         </div>
                         <div class="footer-contact">
                             <p class="text-white text-md font-medium">Contact Us</p>
-                            <div class="flex flex-col gap-24 mt-12">
-                                <div class="flex item-center gap-10">
-                                    <img class="pointer-event-none footer-icon" width="40"
-                                        src="./assets/images/phone-icon.png" alt="phone-icon">
-                                    <a target="_blank" href="tel: 920-662-4863"
-                                        class="footer-contact-link opacity-70 text-white text-decoration-none text-base">920-662-4863</a>
-                                </div>
-                                <div class="flex item-center gap-10">
-                                    <img class="pointer-event-none footer-icon" width="40"
-                                        src="./assets/images/mail-icon.png" alt="phone-icon">
-                                    <a target="_blank" href="mailto: admin@GtmEngneering.com"
-                                        class="opacity-70 footer-contact-link text-white text-decoration-none text-base">admin@GtmEngneering.com</a>
-                                </div>
-                                <div class="flex item-center gap-10">
-                                    <img class="pointer-event-none footer-icon" width="40"
-                                        src="./assets/images/location-icon.png" alt="phone-icon">
-                                    <a target="_blank" href="https://maps.app.goo.gl/KwLNtUgUXa89aFrm6"
-                                        class="footer-contact-link opacity-70 text-white text-decoration-none text-base">340 N
-                                        Broadway Suite 340, Green Bay, WI 54302</a>
-                                </div>
-                            </div>
+                           <div class="flex contact-icons-footer flex-col gap-24 mt-34">
+                    <a target="_blank" href="tel:920-662-4863"
+                        class="item-center contact-us-link flex gap-10 text-white text-decoration-none font-medium">
+                        <img class="pointer-event-none footer-icon" width="40" src="./assets/images/phone-icon.png"
+                            alt="phone-icon"> <span class="opacity-70">920-662-4863</span></a>
+                    <a target="_blank" href="mailto: admin@GtmEngneering.com"
+                        class="flex gap-10 contact-us-link item-center text-white text-decoration-none font-medium"><img
+                            class="pointer-event-none footer-icon" width="40" src="./assets/images/mail-icon.png"
+                            alt="phone-icon"> <span class="opacity-70">admin@GtmEngneering.com</span></a>
+                    <a target="_blank" href="https://maps.app.goo.gl/UopHQhaYZCBuAWsw7"
+                        class="flex gap-10 contact-us-link item-center text-white text-decoration-none font-medium"><img
+                            class="pointer-event-none footer-icon" width="40" src="./assets/images/location-icon.png"
+                            alt="phone-icon"> <span class="opacity-70">340 N Broadway Suite 340, Green Bay, WI 54302</span></a>
+                </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-line"></div>
-            <p class="text-center opacity-70 text-white mt-20 px-4 text-base">Copyright © 2025 GTM Engineering. All Rights
+            <p class="text-center opacity-70 text-white mt-20 px-4 text-base">Copyright © 2025 GTM Engineering. All
+                Rights
                 Reserved.</p>
         </div>
     </section>
