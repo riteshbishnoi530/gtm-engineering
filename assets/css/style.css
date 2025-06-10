@@ -444,8 +444,30 @@ body {
     width: fit-content;
 }
 
-marquee{
-    background: white;
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background: white;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: scroll 8s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-300%);
+  }
+}
+
+.marque-container{
+white-space: nowrap;
 }
 
 .gap-40 {
@@ -1190,6 +1212,11 @@ transform: translate(0px, -10px);
         width: 100%;
         max-width: 500px;
     }
+
+    .marquee-content {
+  display: inline-block;
+  animation: scroll 6s linear infinite;
+}
 
     .nav-links a {
         font-size: 16px;
