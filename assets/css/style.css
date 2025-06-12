@@ -339,7 +339,7 @@ body {
     overflow-x: auto;
     white-space: nowrap;
     padding-bottom: 8px;
-    max-width: 938px;
+    max-width: 943px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -460,15 +460,11 @@ body {
 
 @keyframes scroll {
   from {
-    transform: translateX(0%);
+    transform: translateX(20%);
   }
   to {
-    transform: translateX(-300%);
+    transform: translateX(-400%);
   }
-}
-
-.marque-container{
-white-space: nowrap;
 }
 
 .gap-40 {
@@ -1372,12 +1368,10 @@ right: 0;
 
      .companies-left-layer{
     max-width: 80px;
-    top: 32px;
 }
 
   .companies-right-layer{
     max-width: 80px;
-     top: 32px;
 }
 
     .tab-container {
